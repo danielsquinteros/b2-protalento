@@ -1,0 +1,16 @@
+/* Selector por etiqueta de HTML */
+h2 {
+    color: red;
+}
+
+/* Selector por clases */
+/* class es en HTML y . es en CSS */
+.titulo_1 {
+    color: blue;
+}
+
+/* Selector por id */
+/* id es en HTML y # es en CSS */
+#descripcion{
+    color: darkviolet;
+}
