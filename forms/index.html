@@ -36,8 +36,101 @@
             name="numero"
             min="-1"
             max="10"
-            value="5"
         >
+        <br>
+        <br>
+
+        <!-- Primera opción conectar un label con un input -->
+        <label>
+            Si o No - opción 1
+            <input
+            type="checkbox"
+            >
+        </label>
+        <br>
+        <br>
+
+        <!-- Segunda opción conectar un label con un input -->
+        <label for="coneccion_1">
+            ¿Quieres aceptar la condiciones de usuario?
+        </label>
+        <input
+            id="coneccion_1"
+            type="checkbox"
+            checked
+        >
+
+        <br>
+        <br>
+        <p>Rango de edad:</p>
+        <label>
+            0 - 30
+            <input
+                type="radio"
+                name="edad_1"
+                value="0-30"
+            >
+        </label>
+        <br>
+        <label>
+            31 - 40
+            <input
+                type="radio"
+                name="edad_1"
+                value="31-40"
+            >
+        </label>
+        <br>
+        <label>
+            41 - 50
+            <input
+                type="radio"
+                name="edad_1"
+                value="41-50"
+            >
+        </label>
+        <br>
+        <br
+        <label
+            for="preferida"
+        >
+            Ingresa tu hora preferida
+        </label>
+        <input 
+            id="preferida"
+            type="time"
+            name="hora_preferida"
+            min="09:00"
+            max="23:00"
+        >
+        <br>
+        <br>
+        <label>
+            Ingresa tu día preferido
+            <input 
+                type="date"
+                name="dia_preferido"
+                max="02-08-2022"
+            >
+        </label>
+        <br>
+        <br>
+        <label for="sex">
+            Genero
+        </label>
+        <select name="genero" id="sex">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <br>
+        <br>
+        <textarea
+            placeholder="Ingresa una observación"
+            name="observation"
+            rows="10"
+            cols="35"
+        ></textarea>
         <br>
         <br>
         <button type="submit">
