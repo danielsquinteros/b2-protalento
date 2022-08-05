@@ -1,0 +1,18 @@
+body {
+    background-color: brown;
+}
+
+
+.padre {
+    background-color: aqua;
+    padding:10px 60px 20px;
+    border: 3px solid red;
+    margin: 60px;
+}
+
+.madre{
+    background-color: bisque;
+    padding: 4px;
+    border: 4px solid black;
+    margin: 100px;
+}
