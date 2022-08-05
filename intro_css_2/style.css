@@ -1,0 +1,60 @@
+/* SELECTOR POR ELEMENTO HTML */
+
+h1 {
+    /* color: #d94633; */
+    color: rgba(3, 55, 25, 0.3)
+    /* HEX */
+    /* 00 -> color rojo */
+    /* 00 -> color verde */
+    /* 00 -> color azul */
+    
+    /* RGB */
+    /* 0 a 255 -> color rojo */
+    /* 0 a 255 -> color verde */
+    /* 0 a 255 -> color azul */
+
+    /* RGBA */
+    /* 0 a 255 -> color rojo */
+    /* 0 a 255 -> color verde */
+    /* 0 a 255 -> color azul */
+    /* 0 a, 0.1, 0.2, 0.3 a 1 -> transparente */
+}
+
+/* SELECTOR POR CLASE */
+/* CLASS es en html y . es en CSS */
+.parrafo {
+    color: aqua;
+}
+/* SELECTOR POR ID */
+/* id es en html y # es en CSS */
+/* Como el ID ES MÁS IMPORTANTE QUE LA CLASE VA
+reemplazar a la clase */
+#selector-id{
+    color: blue;
+}
+
+.parrafo {
+    font-size: 30px;
+    color: yellowgreen;
+}
+.color-naranjo{
+    color: orange;
+}
+
+/* SELECTOR DE HIJO DIRECTO */
+/* aplica los estilos a los que cumplen la condición de ser hijos */
+.padre2 > .hijo-2{
+    color: red;
+}
+
+/* Selector Hermano */
+/* Selecciona a los que cumplen la condición que estan al mismo nivel*/
+h5 ~ .hermano-4 {
+     color: aquamarine;
+}
+
+/* Selector adyacente */
+/* solo que debe estar al lado para que se cumpla la condición */
+.adyacente-1 + .adyacente-2{
+    color: coral;
+}
