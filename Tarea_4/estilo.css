@@ -36,14 +36,16 @@ body{
  .cuadro5 {
     background-color: aqua;  
     height: 100px;
-    width: 1000px;
+    /* No es necesario definir un width dado que considera el 100% al ser elemento block */
+    /* width: 1000px; */
     border: 5px solid black;
     display: block;
  }
  .cuadro6 {
         background-color: rgb(232, 43, 166);  
         height: 100px;
-        width: 1000px;
+        /* No es necesario definir un width dado que considera el 100% al ser elemento block */
+        /* width: 1000px; */
         border: 5px dashed black;
         display: block;
  }
@@ -53,16 +55,19 @@ header {
 
 h1{
     height: 100px;
-    width: 1010px;
+    /* No es necesario definir un width */
+    /* width: 1010px; */
     text-align: left;
     line-height: 100px;
     font-size: 25px;
+    /* No existe el margin auto */
     margin: opx auto;
     padding: 10px;
 }
 h2 {        
     height: 100px;
-    width: 1002px;
+    /* No es necesario definir un width */
+    /* width: 1002px; */
     border: 5px solid rgb(24, 137, 54);
     text-align: center;
     line-height: 100px;
@@ -93,7 +98,8 @@ h4 {
 h5 {        
     font-size: 25px;     
     height: 100px;
-    width: 992px;
+    /* No es necesario definir un width dado que considera el 100% */
+    /* width: 992px; */
     margin-right: 0px auto;
     border: 5px solid red;
     text-align: right;
