@@ -1,0 +1,65 @@
+*{
+    margin: 3px;
+    margin-bottom: 15px;
+}
+.margen{
+    display: inline-block;
+    height: 10px;
+    width: 60px;
+    padding: 10px;
+    margin: 2px;
+}
+.bordes > .arriba{
+    background-color: aqua;
+    border-top: 2px solid black;
+}
+.bordes > .abajo{
+    background-color: rgb(146, 146, 235);
+    border-bottom: 2px solid black;
+}
+.bordes > .izquierda{
+    background-color: rgb(255, 255, 100);
+    border-left: 2px solid black;
+}
+.bordes > .derecha{
+    background-color: rgb(255, 121, 121);
+    border-right: 2px solid black;
+}
+.tipos > .solido{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 15px;
+}
+.tipos > .puntos{
+    background-color: pink;
+    border: 2px dashed black;
+    padding: 15px;
+}
+.padre{
+    border: 2px solid black;
+}
+.padre > .hijo_1{
+    margin: 0;
+    text-align: center;
+    border: 2px solid goldenrod;
+    padding: 15px;
+}
+.hijo_2, .hijo_3{
+    margin: 0;
+    display: inline-block;
+    padding: 15px;
+}
+.padre > .hijo_2{
+    border: 2px solid pink;
+    margin-right: 5px;
+}
+.padre > .hijo_3{
+    border: 2px solid blue;
+
+}
+.padre > .hijo_4{
+    margin: 0;
+    border: 2px solid red;
+    padding: 15px;
+    text-align: right;
+}

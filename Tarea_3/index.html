@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pizzeria DEV.F</title>
+</head>
+<body>
+    <header>
+        <h1>Pizzeria DEV.F</h1>
+        <h3>Donde la tecnología es el acompañamiento perfecto</h3>
+    </header>
+    <main>
+        <form name="from_pizza" method="post" action="">
+            <h2>¡Arma tu pedido!</h2>
+            <input name="nom_clie" type="text" size="30"  placeholder="Ingrese su nombre" required>
+            <br><br>
+            <input name="email_cli" type="email" size="30" placeholder="Ingrese su correo electronico" required>
+            <br><br>
+            <input name="dir_cliente" type="text" size="30" placeholder="Ingrese su direccion" required>
+            <br><br>
+            <input name="cant_pizz" type="number" size="30" min="1" placeholder="Ingrese la cantidad de pizzas deseadas" required>
+            <br><br>
+            <select name="tipo_pizz" >
+                <option value="null">Seleccione un sabor de pizza</option>
+                <option value="napolitana">Pizza Napolitana</option>
+                <option value="pepperoni">Pizza de Pepperoni</option>
+                <option value="vegana">Pizza Vegana</option>
+                <option value="quesos_4">Pizza 4 quesos</option>
+            </select>
+            <br><br>
+            <!-- LABEL DUPLICADO, FALTAN LOS IDS :O -->
+            <label for="bebida">¿Alguna bebida adicional?</label>
+            <br>
+            <label for="bebida">Ninguna</label>
+            <input name="bebida" type="radio" value="null">
+            <br>
+            <label for="bebida_coca">Coca-Cola 500 ml</label>
+            <input id="bebida_coca" name="bebida" type="radio" value="coca_cola">
+            <br>
+            <label for="bebida">Pepsi 500 ml</label>
+            <input name="bebida" type="radio" value="pepsi">
+            <br>
+            <label for="bebida">botella de agua</label>
+            <input name="bebida" type="radio" value="agua">
+            <br><br>
+            <label for="hora_entre_pizz">Seleccione la hora de entrega</label>
+            <input name="hora_entre_pizz" type="time" size="30">
+            <br><br>
+            <label for="pago">Elige un metodo de pago</label>
+            <br>
+            <label for="pay_pizz">Efectivo</label>
+            <input name="pago" type="radio" value="efectivo" required>
+            <br>
+            <label for="pay_pizz">Tarjeta de credito o debito</label>
+            <input name="pago" type="radio" value="tarjeta" required>
+            <br><br>
+            <input class="btn_enviar" name="enviar_orden" type="submit"  value="Enviar pedido">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
