@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+</head>
+<body>
+    <!--REVISAR Estructa de HTML -->
+    <h1> Pizzeria DEV.F </h1>
+    <br>
+    <br>
+    <nav>  
+        <a href="https://WWW.pizzeriaDEF_V.com/" target="_blank"> pizzeria DEF.V</a>
+        <img src="./images/Imagen_Pizzeria.jpg" alt="imagen de horno a leña en el proceso de elaboracion de una pizza">
+    </nav>  
+    <br>
+    <br>
+    <p> Ingresa tus datos personales para tomar tu pedido en linea </p>
+    <br>    
+    <!-- sin espacios-->
+    <form name="formulario1" action="" method="POST">
+        <input 
+            type="text"
+            name="Primer_nombre"
+            placeholder="Ingresa tu nombre"
+            size="32"
+
+            maxlength="20"
+            minlength="2"
+            required
+        >
+        <br>
+        <br>
+        <input
+            type="password"
+            name="Contraseña"
+            placeholder="Ingresa tu contraseña"
+            size="32"
+
+            required
+        >
+
+        <p> Nùmero telefònico 
+        </p> 
+        <input 
+            type="tel" 
+            name="telefono" 
+            placeholder="(Código de área) Número"
+        >
+            
+        <p>
+            Dirección de correo electrónico: 
+        </p>
+        <input 
+        type="email" 
+        name="direccion_email" 
+        placeholder="usuario@servidor.com"
+        >           
+        <br>
+        <input
+            type="direction"
+            name="Direccion"
+            placeholder="Ingresa tu direccion"
+            size="32"
+
+            required
+        >
+        <br>
+        <p>Cantidad de Pizzas</p>
+        <input
+            type="number"
+            name="numero"
+            placeholder="Cantidad"
+            min="1"
+            max= "10000"
+            
+            required
+        >      
+
+        <br>
+        <br>
+        <p> Variedad de Pizzas en DEV.F</p>
+        <select name="tipo_de_pizza" id="kind of pizza">
+            <option value="Pizza Napolitana">Pizza Napolitana</option>
+            <option value="Pizza de Pepperoni">Pizza de Pepperoni</option>
+            <option value="Pizza Vegana" checked>Pizza Vegana</option> 
+            <option value="Pizza de 4 queso">Pizza de 4 queso</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="hora_de_entrega">
+            Hora deseada de entrega
+        </label>
+        <input 
+            id="hora_de_entrega"
+            type="time"
+            name="hora de entrega"
+            min="00:00"
+            max="23:59"
+        >
+        <br>
+        <br>
+        <br>
+        <textarea
+            placeholder="Ingresa una observación tu opinion es importante para mejorar nuestra atencion"
+            name="observation"
+            rows="10"
+            cols="35"
+        ></textarea>
+        <br>
+        <br>
+    
+        <label for="coneccion_1">
+            ¿Autorizas el tratamiento de tus datos personales conforme a los estamentos juridicos estabecidos en la normatividad Colombiana?
+        </label>
+        <input
+            id="coneccion_1"
+            type="checkbox"
+            checked
+        >
+                 
+        <button type="submit">ENVIAR</button>
+        
+        <footer>        
+            <a href="https://www.facebook.com/pizzeriaDEF.V" target="_blank"> Facebook</a>            
+            <a href="https://www.instagram.com/@pizzeriaDEF.V" target="_blank"> instagram</a>             
+             <a href="https://twitter.com/@pizzeriaDEF.V" target="_blank"> twitter</a>   
+        </footer> 
+    </form> 
+    
+</body>
+</html>

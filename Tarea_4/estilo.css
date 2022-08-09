@@ -1,0 +1,103 @@
+*{
+margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.cuadro1 {
+   background-color: aqua;  
+   height: 100px;
+   width: 150px;
+   border-top: 5px solid black;
+   display: inline-block;
+}
+.cuadro2 {
+    background-color: rgba(156, 225, 244, 0.912);  
+    height: 100px;
+    width: 150px;
+    border-bottom: 5px solid black;
+    display: inline-block;
+ }
+ .cuadro3 {
+    background-color: yellow;  
+    height: 100px;
+    width: 150px;
+    border-left: 5px solid black;
+    display: inline-block;
+ }
+ .cuadro4 {
+    background-color: rgb(232, 43, 166);  
+    height: 100px;
+    width: 150px;
+    border-right: 5px solid black;
+    display: inline-block;
+ }
+ .cuadro5 {
+    background-color: aqua;  
+    height: 100px;
+    width: 1000px;
+    border: 5px solid black;
+    display: block;
+ }
+ .cuadro6 {
+        background-color: rgb(232, 43, 166);  
+        height: 100px;
+        width: 1000px;
+        border: 5px dashed black;
+        display: block;
+ }
+header {
+    border: 5px solid black;
+}
+
+h1{
+    height: 100px;
+    width: 1010px;
+    text-align: left;
+    line-height: 100px;
+    font-size: 25px;
+    margin: opx auto;
+    padding: 10px;
+}
+h2 {        
+    height: 100px;
+    width: 1002px;
+    border: 5px solid rgb(24, 137, 54);
+    text-align: center;
+    line-height: 100px;
+    display: block;
+    font-size: 25px;
+}
+h3 {
+    font-size: 25px;
+    padding: 20px;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 5px solid blueviolet;
+    display: inline-block        
+}
+h4 {
+    font-size: 25px;
+    padding: 20px;       
+    height: 100px;
+    width: 100px; 
+    text-align: center;
+    line-height: 100px;      
+    border: 5px solid blue;
+    display: inline-block
+}
+h5 {        
+    font-size: 25px;     
+    height: 100px;
+    width: 992px;
+    margin-right: 0px auto;
+    border: 5px solid red;
+    text-align: right;
+    padding-inline-end: 10px;        
+    line-height: 100px;        
+    display: block;
+}
