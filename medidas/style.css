@@ -1,0 +1,44 @@
+html{
+    font-size: 16px;
+}
+
+.medida-absoluta{
+    font-size: 30px;
+}
+
+.medida-absoluta-box{
+    background-color: aqua;
+    height: 100px;
+    /* pulgadas */
+    /* width: 1in; */
+
+    /* cm */
+    width: 4cm;
+    
+    /* mm */
+    /* width: 100mm; */
+    
+    /* pc */
+    /* pc -> 12 puntos */
+    /* 1pt -> 1/72 pulgadas*/
+    width: 12px;
+}
+
+.medida-relativa{
+    /* valor de fuente más lejano del elemento */
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.medida-relativa-em{
+    font-size: 20px;
+}
+.medida-relativa-em-2{
+    font-size: 2em;
+}
+.parrafo {
+    font-size: 4em;
+}
