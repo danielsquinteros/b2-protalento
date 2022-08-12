@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.box{
+    /* vw -> viewport width */
+    width: 50vw;
+    /* vh -> viewport height */
+    height: 50vh;
+    background-color: aqua;
+}
