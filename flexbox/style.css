@@ -1,0 +1,46 @@
+.container{
+    width: 500px;
+    height: 400px;
+    border: 3px solid black;
+    display: flex;
+    /* flex-direction: row;
+    /* Alineación a través del main axis JUSTIFY CONTENT 
+    /* flex-start el inicio 
+    justify-content: flex-start;
+    /* flex-start el final 
+    justify-content: flex-end;
+    /*center -> los elementos se posicionen al centro 
+    justify-content: center;
+    /*space beetwen -> los elementos se posicion tocando los bordes->  
+    justify-content: space-between;
+    /*space around -> los elementos se posicion conservando el mismo medio >  
+    justify-content: space-around;
+    /* Alineación a través del cross axis Align items 
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.element{
+    width: 100px;
+    height: 100px;
+    border: 3px solid green;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-1{
+
+    align-self: flex-start;
+
+}
+
+.element-3{
+    margin-left: 20px;
+    align-self: flex-start;
+}
