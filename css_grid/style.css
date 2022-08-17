@@ -42,34 +42,34 @@
     height: 500px;
     display: grid;
     grid-template-areas: 
-    "item1 item1 item3 item2"
-    "item4 item5 item5 item2";
+    "area1 area1 area2 area3 area6"
+    "area5 area5 area4 area4 area7";
     grid-column-gap: 15px;
     grid-row-gap: 5px;
     margin-bottom: 100px;
     padding: 10px 0px 10px 0px;
 }
 
-.item-v2{
-    background-color: blue;
+.hijo-1{
+    background-color: rgb(244, 181, 181);
+    grid-area: area4;
+}
+
+.hijo-2{
+    background-color: rgb(239, 202, 69);
+    grid-area: area1;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
 
-.item-v2-1{
-    background-color: aquamarine;
-    grid-area: item1;
-}
-.item-v2-2{
-    background-color: chocolate;
-    grid-area: item2;
-}
-.item-v2-3{
-    grid-area: item4;
+.hijo-3{
+    background-color: rgb(73, 105, 245);
+    grid-area: area5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
-.item-v2-4{
-    grid-area: item3;
-}
