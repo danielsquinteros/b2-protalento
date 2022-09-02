@@ -129,3 +129,56 @@ console.log('resultado10', resultado10)
 /* != son diferentes */
 resultado11 = numero5 != numero6
 console.log('resultado11', resultado11)
+
+// var edadPrompt = prompt('Ingresa tu edad')
+// /* tipo de dato string que pase a Number */
+// var edadNumber = parseInt(edadPrompt)
+// var mayorEdad = edadNumber >= 18
+// // console.log(edadNumber, typeof(edadNumber))
+// console.log('¿Es mayor de edad?', mayorEdad)
+
+var texto3 = 'DevF'
+/* todo en mayusculas to UpperCase */
+/* todo en minisculas to LowerCase */
+console.log(texto3.toUpperCase());
+console.log(texto3.toLowerCase());
+
+// var nombre1Prompt = prompt('Ingresa tu nombre')
+// validacionNombre = nombre1Prompt.toLowerCase() == 'felipe'
+// console.log('¿El nombre es Felipe', validacionNombre)
+
+/* Operadores Lógicos */
+/* Verifican booleanos */
+// OR es O en español -> ||
+// AND es y en espalol -> &&
+// Not es no español -> !
+/* OR, AND, NOT */
+
+var operador1 = false || false
+var operador2 = true || false
+var operador3 = false || true
+var operador4 = true || true
+console.log(operador1)
+console.log(operador2)
+console.log(operador3)
+console.log(operador4)
+
+/* ¿Queremos saber si un numero es mayor que 10 o es menor que 3 */
+var numeroOr = prompt('Ingresa un numero OR')
+var numeroOrNumber = parseInt(numeroOr)
+var numero_menor_3 = numeroOr < 3
+var numero_mayor_10 = numeroOr > 10
+console.log('=====', numero_menor_3 || numero_mayor_10)
+
+/* ¿Queremos saber si un numero es mayor que 10 y es mayor que 30 */
+var numeroOr = prompt('Ingresa un numero AND')
+var numeroOrNumber = parseInt(numeroOr)
+var numero_mayor_30 = numeroOr > 30
+var numero_mayor_10 = numeroOr > 10
+console.log('=====', numero_mayor_30 && numero_mayor_10)
+
+var inversa = !false
+console.log('===', inversa)
+
+var inversaDeLaInversa = !!false
+console.log('===', inversaDeLaInversa)
