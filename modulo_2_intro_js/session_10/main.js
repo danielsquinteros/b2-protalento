@@ -57,3 +57,10 @@ calcularNotas(10)
 // numero indefinido de datos
 const notas = [10, 20, 20, 40, 50, 70]
 calcularNotas(...notas)
+
+// String template o backticks
+console.log('STRING TEMPLATE')
+const deporte = 'Futbol'
+const name = 'Felipe'
+console.log(name + ' juega ' + deporte)
+console.log(`${name} juega ${deporte} ✅`)
