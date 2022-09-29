@@ -70,15 +70,13 @@ console.log('map', arrayOnlyNames)
 // recorre todo el arreglo, crea un arreglo nuevo pero el beneficio
 // es que filtra en función de una condicion
 // CONSIDERA A TODOS LOS QUE CUMPLEN LA CONDICION
-const nombreSaul = students.filter((student) => {
-    if(student.name === 'Saul'){
-        return student.name
-    }
+const rangoEdad = students.filter((student) => {
+    return student.age > 20 && student.age < 29
 })
 
-console.log(nombreSaul)
+console.log(rangoEdad)
 
-const veinteaAños = students.filter((student) => {
+const studentsIntroWeb = students.filter((student) => {
     return student.module === 'kata_intro_web'
 })
 
@@ -111,8 +109,8 @@ console.log(totalReduce)
 
 //Método Some
 // Verifica si un elemento existe en un arreglo, devuelve true o false
-const existeJohan = students.some((student)=> {
+const isJohan = students.some((student)=> {
     return student.name === 'Johan'
 })
 
-console.log('¿Johan existe? ', existeJohan)
+console.log('¿Johan existe? ', isJohan)
