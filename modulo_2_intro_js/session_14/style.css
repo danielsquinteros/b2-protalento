@@ -1,0 +1,8 @@
+.background{
+    background-color: aqua;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
