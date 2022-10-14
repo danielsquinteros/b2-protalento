@@ -10,6 +10,7 @@ const button = document.querySelector('.btn.btn-primary')
 // addEventListener -> Recibe dos argumentos
 // Primer argumento -> es el tipo de evento
 // Segundo argumento -> es la función
+
 button.addEventListener('click', (event) => {
     // e.target me trae el ELEMENTO que disparo el evento
     // el elemento que disparo el evento el boton crear

@@ -1,0 +1,16 @@
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.text {
+    background-color: white;
+}
+
+.card {
+    background-color: wheat;
+}
+
+.size {
+    width: 400px;
+}
